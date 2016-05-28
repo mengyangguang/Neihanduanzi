@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.administrator.neihanduanzidemo01.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/home_container">
+
+    </FrameLayout>
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/home_tab_bar"
+       android:orientation="horizontal">
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="首页"
+           android:id="@+id/home_tab_rb1"/>
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="发现"
+           android:id="@+id/home_tab_rb2"/>
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="审核"
+           android:id="@+id/home_tab_rb3"/>
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="消息"
+           android:id="@+id/home_tab_rb4"/>
+   </RadioGroup>
+</LinearLayout>
